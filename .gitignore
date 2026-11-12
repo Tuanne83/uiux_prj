@@ -43,3 +43,14 @@ build/
 *.pptx
 *.pdf
 *.docx
+
+# Claude Code skills (keep only brainstorm, rest private)
+.claude/skills/activity/
+.claude/skills/activity-swimlane/
+.claude/skills/urd/
+.claude/skills/brd/
+.claude/skills/user-flow/
+.claude/skills/userstory/
+.claude/skills/test-checklist/
+.claude/skills/test-cases/
+.claude/skills/kg/
