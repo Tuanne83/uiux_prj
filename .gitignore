@@ -55,5 +55,13 @@ build/
 .claude/skills/test-cases/
 .claude/skills/kg/
 
-# Antigravity adapter (keep only brainstorm, rest private)
-.agents/
+# Antigravity adapter skills (keep only brainstorm, rest private)
+.agents/skills/activity/
+.agents/skills/activity-swimlane/
+.agents/skills/urd/
+.agents/skills/brd/
+.agents/skills/user-flow/
+.agents/skills/userstory/
+.agents/skills/test-checklist/
+.agents/skills/test-cases/
+.agents/skills/kg/
