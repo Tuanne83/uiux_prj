@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Claude Code state (local sync, locks, secrets)
+.claude/state/
+.claude/state/**
+.claude/*.local.json
+
+# Atlassian sync state (if using Jira/Confluence)
+.claude/state/atlassian/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# IDE & editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+
+# OS
+Thumbs.db
+
+# Build & generated files
+dist/
+build/
+.cache/
+
+# Temp files (scratchpad, experiments)
+/tmp
+*.tmp
+*-draft.md
+.scratch/
+
+# Large binary files (if any)
+*.pptx
+*.pdf
+*.docx

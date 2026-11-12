@@ -39,3 +39,4 @@ Trong các file `SKILL.md`, một số tên công cụ và cú pháp được vi
 4. **Phạm vi 10 skill hiện có**:
    * Dự án này chỉ cài 10 skill: `brainstorm`, `brd`, `urd`, `srs`, `activity`, `user-flow`, `wireframe-html`, `userstory`, `test-checklist`, `test-cases`.
    * Khi chạy `/srs`, khuyến nghị dùng chế độ `[1] Core spec` (`--spec-only`) rồi chạy tiếp `/activity`, `/user-flow`, `/wireframe-html`, `/userstory` theo đúng pipeline đã chốt (vì các skill `usecase`, `sequence`, `erd`, `state`, `wireframe-ascii`, `ac` không được cài trong workspace này).
+
