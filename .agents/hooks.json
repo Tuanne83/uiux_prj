@@ -1,0 +1,16 @@
+{
+  "ba-doc-lifecycle": {
+    "PostToolUse": [
+      {
+        "matcher": "write_file|edit_file",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ./hooks/post-write.py",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

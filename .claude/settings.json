@@ -22,10 +22,6 @@
   "env": {
     "AUTO_CHANGELOG": "true"
   },
-  "statusLine": {
-    "type": "command",
-    "command": "python3 .claude/scripts/token-track/token-statusline.py"
-  },
   "hooks": {
     "SessionStart": [
       {
@@ -44,25 +40,6 @@
           {
             "type": "command",
             "command": ".claude/hooks/block-push.sh"
-          }
-        ]
-      },
-      {
-        "matcher": "Skill",
-        "hooks": [
-          {
-            "type": "command",
-            "command": ".claude/scripts/token-track/token-skill-hook.sh"
-          }
-        ]
-      }
-    ],
-    "Stop": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "python3 .claude/scripts/token-track/token-turn-summary.py"
           }
         ]
       }
@@ -86,15 +63,6 @@
           {
             "type": "command",
             "command": ".claude/hooks/kg-refresh.sh"
-          }
-        ]
-      },
-      {
-        "matcher": "Skill",
-        "hooks": [
-          {
-            "type": "command",
-            "command": ".claude/scripts/token-track/token-skill-hook.sh"
           }
         ]
       }
