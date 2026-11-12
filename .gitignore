@@ -54,3 +54,6 @@ build/
 .claude/skills/test-checklist/
 .claude/skills/test-cases/
 .claude/skills/kg/
+
+# Antigravity adapter (keep only brainstorm, rest private)
+.agents/
